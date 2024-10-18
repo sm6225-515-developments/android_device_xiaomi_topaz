@@ -16,4 +16,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23021RAAEG
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="topaz_global-user 15 AQ3A.240829.003 OS2.0.8.0.VMGMIXM release-keys" \
+    BuildFingerprint=Redmi/topaz_global/topaz:15/AQ3A.240829.003/OS2.0.8.0.VMGMIXM:user/release-keys \
+    DeviceProduct=topaz \
+    SystemName=topaz_global
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
