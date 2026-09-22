@@ -11,3 +11,6 @@ include device/xiaomi/sm6225-common/BoardConfigCommon.mk
 include vendor/xiaomi/topaz/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/topaz
+
+# Inherit Proprietary Vendor
+$(call inherit-product, vendor/xiaomi/topaz/topaz-vendor.mk)
